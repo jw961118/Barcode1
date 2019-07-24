@@ -1,0 +1,10 @@
+﻿<Window x:Class="Item.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Main" Height="350" Width="525" DataContext="{Binding}" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button Content="Item Master" Height="52" HorizontalAlignment="Left" Margin="174,75,0,184" Name="btn_ItemMaster" VerticalAlignment="Center" Width="146" Click="btn_ItemMaster_Click" />
+        <Button Content="Add Item" Height="52" HorizontalAlignment="Left" Margin="174,133,0,126" Name="btn_AddItem" VerticalAlignment="Center" Width="146" Click="btn_AddItem_Click" />
+        <Button Content="Scan Item" Height="52" HorizontalAlignment="Left" Margin="174,191,0,68" Name="btn_ScanItem" VerticalAlignment="Center" Width="146" Click="btn_ScanItem_Click" />
+    </Grid>
+</Window>
